@@ -107,7 +107,7 @@ In order to search, you can either click on the search icon from header or press
 
 Make sure to enable JSON in outputs array.
 
-```
+```txt
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 ```
