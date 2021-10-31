@@ -1,0 +1,114 @@
+.dark .revue-embed {
+    background: rgba(17, 24, 39, 1);
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.revue-embed {
+    background: rgba(254, 243, 199, 1);
+    font-family: 'Lato', sans-serif;
+    color: #111827;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.dark #member_email {
+    width: 65%;
+    font-size: 14px;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+.dark #member_submit {
+    width: 35%;
+    height: 46px;
+    font-size: 14px;
+    background: rgba(245, 158, 11, 1);
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+#member_email {
+    width: 65%;
+    font-size: 14px;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+#member_submit {
+    width: 35%;
+    height: 46px;
+    font-size: 14px;
+    background: rgba(245, 158, 11, 1);
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+#member_submit:hover {
+    background: rgba(127, 29, 29, 1);
+}
+
+input:focus {
+    outline: none;
+    outline: 2px solid #E86C8D;
+    box-shadow: 0 0 2px #E86C8D;
+}
+
+.revue-header-intro {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.revue-header {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 0.05em;
+}
+
+form {
+    width: 80%;
+    margin: 0.5em auto;
+}
+
+.revue-description {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+}
+
+.revue-input {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.button {
+    height: 44px;
+    border: none;
+}

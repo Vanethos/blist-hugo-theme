@@ -17,9 +17,7 @@
 {{ if .Site.Params.enableSearch }}
 {{- partial "search-ui.html" . -}}
 {{ end }}
-
 {{ template "_internal/google_analytics_async.html" . }}
-
 {{ if .Site.Params.darkModeToggle }}
 <script>
   // On page load or when changing themes
