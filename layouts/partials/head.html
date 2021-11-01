@@ -13,6 +13,8 @@
 
   <link rel="icon" href="{{ if (isset .Site.Params "favicon") }}{{ .Site.Params.favicon }}{{ else }}/favicon.ico{{ end }}">
 
+  <link rel="canonical" href="{{ .Permalink }}" />
+
   <title>
     {{ block "title" . }} {{- .Title }} - {{ .Site.Title -}} {{ end }}
   </title>
